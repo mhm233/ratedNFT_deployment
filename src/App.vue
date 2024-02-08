@@ -1,6 +1,6 @@
 <template>
   <img alt="stark logo" src="./assets/logo.png">
-  <StarkDemo msg="Welcome To My Starknet Mainnet Dapp"/>
+  <StarkDemo msg="ratedNFT Demo APP"/>
 </template>
 
 <script>
