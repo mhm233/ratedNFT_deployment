@@ -95,7 +95,7 @@ export default {
     return {
       display0: true,
       display: false,
-      isActive: true,
+      isActive: false,
       connectWallet: "connect Wallet",
       disConnectWallet: "disConnect Wallet",
       deploy: "deploy",
