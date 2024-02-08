@@ -78,7 +78,7 @@ import {
   Contract,
 } from "starknet";
 
-const alchemyRPC = "https://starknet-mainnet.g.alchemy.com/v2/bpLKXrBsKZz-_9m2ePjSefISGEW4x7NV";
+const alchemyRPC = "https://starknet-mainnet.g.alchemy.com/v2/bFUuADrbSf_AVdodymXz-zGigol3zLgS";
 // 主网
 const provider = new RpcProvider({rpcnodeUrl: alchemyRPC});
 
@@ -95,7 +95,7 @@ export default {
     return {
       display0: true,
       display: false,
-      isActive: false,
+      isActive: true,
       connectWallet: "connect Wallet",
       disConnectWallet: "disConnect Wallet",
       deploy: "deploy",
@@ -112,7 +112,7 @@ export default {
       LimitAmount: "LimitAmount",
       amount: null,
       LimitAmountInfo: "",
-      aiprDrop: "aiprDrop",
+      aiprDrop: "airdrop",
       aiprDropAmount: null,
       aiprDropInfo: "",
       aiprDropInfo2: "",
